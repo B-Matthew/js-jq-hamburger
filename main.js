@@ -9,5 +9,9 @@ function dropped2(){
   $(".hamburger-menu").hide();
 }
 
+function init() {
 $('.fa-bars').click(dropped);
 $('.fa-times').click(dropped2);
+}
+
+init();
